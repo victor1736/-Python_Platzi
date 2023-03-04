@@ -13,6 +13,6 @@ def read_csv(path):
 
 
 if __name__ == '__main__':
-    data = read_csv('./documentos/data.csv')
+    data = read_csv('./data.csv')
     print(data[0])
     

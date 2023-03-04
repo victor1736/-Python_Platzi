@@ -3,7 +3,7 @@ import read_csv
 import charts
 
 def run():
-    data = read_csv.read_csv('./documentos/data.csv')
+    data = read_csv.read_csv('./data.csv')
     country = input('Type Cpuntry => ')
     
     result = utils.population_by_country(data,country)
